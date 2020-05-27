@@ -1,0 +1,4 @@
+1. Chọn loại banner cần embed:  728x90px, 300x600px và 300x250px
+2. Mở file html tương ứng, copy toàn bộ code html trong thẻ DIV có class name là: "luzu_banner_embed"
+3. Dán đoạn mã này vào vị trí cho phép hiển thị trên website
+4. Banner sử dụng Jquery-1.9.1.js, nếu website đã hỗ trợ thì có thể xoá dòng <script src="http://code.jquery.com/jquery-1.9.1.js"></script> trong mã nhúng.
