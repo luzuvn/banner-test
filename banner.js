@@ -92,7 +92,7 @@
 
     				var product_a = document.createElement('a');
     					product_a.setAttribute("href", product_link[i].path + tracking_param);
-                        //product_a.setAttribute('target', '_blank');
+                        product_a.setAttribute('target', '_blank');
     					product_a.setAttribute("title", product_link[i].title);
     					div.appendChild(product_a);
 
