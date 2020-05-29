@@ -126,7 +126,7 @@
                             item.appendChild(qt);
                             var product_a1 = document.createElement('a');
                                 product_a1.setAttribute("href", product_link[i].path + tracking_param);
-                                //product_a1.setAttribute('target', '_blank');
+                                product_a1.setAttribute('target', '_blank');
                                 product_a1.setAttribute("title", product_link[i].title);
                                 qt.appendChild(product_a1);
                                 var qt_img = document.createElement('img');
@@ -146,7 +146,7 @@
                             if (product_link[i].qt != '') {
                                 var product_a1 = document.createElement('a');
                                     product_a1.setAttribute("href", product_link[i].path + tracking_param);
-                                    //product_a1.setAttribute('target', '_blank');
+                                    product_a1.setAttribute('target', '_blank');
                                     qt.appendChild(product_a1);
                                     var qt_img = document.createElement('img');
                                         qt_img.classList = 'luzu_qt_img hvr-buzz-out';
