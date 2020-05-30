@@ -10,8 +10,7 @@
     
 
     $(document).ready(function() {
-        var domain = window.location.host;
-        var domain_name = domain.split('.')[0];
+        var domain_name = window.location.host;
         if (!domain_name) {
             domain_name = 'not_detect';
         }
